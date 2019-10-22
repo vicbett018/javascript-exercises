@@ -70,9 +70,10 @@ describe("basics", function() {
             // new Number() creates a "primitive wrapper". It's not an actual number, it's an object.
             // In 99.999% of all cases, this is a bug and not actually intended. Fix it! :)
             // ✏️ FIX THAT BUG ✏️
-            const someNumber = new Number(3);
+            const someNumber = 3;
             ////////////////////////////////////////////////////////////////////
             
+        
             // The primitive wrapper passes the loose quality check because it will be casted to a number.
             expect(someNumber == 3).to.equal(true);
             // But it doesn't pass the strict equality check because an object is not a number.
