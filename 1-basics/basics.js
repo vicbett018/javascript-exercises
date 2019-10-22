@@ -72,7 +72,7 @@ describe("basics", function() {
             // ✏️ FIX THAT BUG ✏️
             const someNumber = 3;
             ////////////////////////////////////////////////////////////////////
-            
+            someNumber=3;
         
             // The primitive wrapper passes the loose quality check because it will be casted to a number.
             expect(someNumber == 3).to.equal(true);
