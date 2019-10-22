@@ -26,7 +26,7 @@ describe("basics", function() {
             ////////////////////////////////////////////////////////////////////
             // Declare "someVariable" in way so that the declaration is hoisted.
             // ✏️ ADD CODE HERE ✏️
-
+             var someVariable="undefined";
             ////////////////////////////////////////////////////////////////////
         });
     });
@@ -40,7 +40,7 @@ describe("basics", function() {
             ////////////////////////////////////////////////////////////////////
             // Declare "someVariable" in way so that the declaration is NOT hoisted.
             // ✏️ ADD CODE HERE ✏️
-
+            let someVariable;
             ////////////////////////////////////////////////////////////////////
 
             expect(someVariable).to.equal(undefined);
@@ -51,7 +51,7 @@ describe("basics", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+               const someVariable=undefined;
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof someVariable).to.equal("undefined");
@@ -72,7 +72,7 @@ describe("basics", function() {
             // ✏️ FIX THAT BUG ✏️
             const someNumber = new Number(3);
             ////////////////////////////////////////////////////////////////////
-
+            
             // The primitive wrapper passes the loose quality check because it will be casted to a number.
             expect(someNumber == 3).to.equal(true);
             // But it doesn't pass the strict equality check because an object is not a number.
