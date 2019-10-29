@@ -284,7 +284,8 @@ describe("basics", function() {
             ////////////////////////////////////////////////////////////////////
             // Can you find two different numbers that each cast to `false` in an if() statement?
             // ✏️ ADD CODE HERE ✏️
-            
+            const falsyNumber1=1;
+            const falsyNumber2=2;
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof falsyNumber1).to.equal("number");
@@ -308,7 +309,7 @@ describe("basics", function() {
             ////////////////////////////////////////////////////////////////////
             // Can you find a value that is typeof "object" but also casts to `false`?
             // ✏️ ADD CODE HERE ✏️
-
+             const falsyThing=null;
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof falsyThing).to.equal("object");
@@ -338,7 +339,7 @@ describe("basics", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            object(0);
             ////////////////////////////////////////////////////////////////////
 
             // That's the same property access as above, but now we get back
