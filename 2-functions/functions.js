@@ -40,7 +40,7 @@ describe("functions", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-             const myFunctiona=otherFunction()
+             const otherFunction=myFunction
             ////////////////////////////////////////////////////////////////////
 
             if (myFunction !== otherFunction) {
@@ -57,7 +57,7 @@ describe("functions", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ EDIT LINE BELOW ✏️
-            myFunction(); // why is myFunction not callable?
+            function myFunction(){};// why is myFunction not callable?
             ////////////////////////////////////////////////////////////////////
         });
     });
@@ -72,7 +72,7 @@ describe("functions", function() {
             // Declare a constant 'answer' with the correct result.
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
-
+             function getContext(answer)
             ////////////////////////////////////////////////////////////////////
 
             const result = getContext(); // <--- called without explicit context
